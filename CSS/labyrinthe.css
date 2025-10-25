@@ -82,19 +82,19 @@ h1 {
     font-weight: bold;
 }
 
-.lowatem {
+.labyrinthe {
     text-align: left;
     max-width: 3200px;
     margin: 0 20px;
     padding: 20px;
 }
 
-.lowatemImage {
+.labyrintheImage {
     display: flex;
     justify-content: center;
 }
 
-.imageLowatem {
+.imageLabyrinthe {
     width: 800px;
     height: 600px;
     border-radius: 10px;
@@ -102,20 +102,20 @@ h1 {
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.lowatem h2 {
+.labyrinthe h2 {
     text-align: center;
 }
 
-.lowatem p {
+.labyrinthe p {
     margin-left: 50px;
 }
 
-.lowatem h4 {
+.labyrinthe h4 {
     margin-top: 35px;
     margin-left: 20px;
 }
 
-.lowatemCarte {
+.labyrintheCarte {
     margin-top: 100px;
     width: 560px;
     height: auto;
@@ -133,8 +133,8 @@ h1 {
     width: 10px;
 }
 
-.lowatemCarte:hover,
-.imageLowatem:hover {
+.labyrintheCarte:hover,
+.imageLabyrinthe:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
     cursor: pointer;
@@ -192,7 +192,7 @@ h1 {
         font-size: 36px;
     }
 
-    .imageLowatem {
+    .imageLabyrinthe {
         max-height: 200px;
         max-width: 400px;
     }
@@ -202,19 +202,19 @@ h1 {
         gap: 20px;
     }
 
-    .lowatemCarte {
+    .labyrintheCarte {
         width: 90%;
         max-width: 400px;
         margin: 0 auto;
         margin-top: 5%;
     }
 
-    .lowatem h2 {
+    .labyrinthe h2 {
         font-size: 20px;
     }
 
-    .lowatem h4,
-    .lowatem p {
+    .labyrinthe h4,
+    .labyrinthe p {
         font-size: 14px;
         margin-left: 10px;
     }
@@ -250,15 +250,15 @@ h1 {
         font-size: 30px;
     }
 
-    .lowatemCarte h2 {
+    .labyrintheCarte h2 {
         font-size: 18px;
     }
 
-    .lowatemCarte {
+    .labyrintheCarte {
         min-height: auto;
     }
 
-    .imageLowatem {
+    .imageLabyrinthe {
         max-height: 200px;
         max-width: 350px;
     }

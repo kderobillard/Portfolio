@@ -82,19 +82,19 @@ h1 {
     font-weight: bold;
 }
 
-.lowatem {
+.greenview {
     text-align: left;
     max-width: 3200px;
     margin: 0 20px;
     padding: 20px;
 }
 
-.lowatemImage {
+.greenviewImage {
     display: flex;
     justify-content: center;
 }
 
-.imageLowatem {
+.imageGreenview {
     width: 800px;
     height: 600px;
     border-radius: 10px;
@@ -102,20 +102,20 @@ h1 {
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.lowatem h2 {
+.greenview h2 {
     text-align: center;
 }
 
-.lowatem p {
+.greenview p {
     margin-left: 50px;
 }
 
-.lowatem h4 {
+.greenview h4 {
     margin-top: 35px;
     margin-left: 20px;
 }
 
-.lowatemCarte {
+.greenviewCarte {
     margin-top: 100px;
     width: 560px;
     height: auto;
@@ -133,8 +133,7 @@ h1 {
     width: 10px;
 }
 
-.lowatemCarte:hover,
-.imageLowatem:hover {
+.greenviewCarte:hover, .imageGreenview:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
     cursor: pointer;
@@ -192,7 +191,7 @@ h1 {
         font-size: 36px;
     }
 
-    .imageLowatem {
+    .imageGreenview {
         max-height: 200px;
         max-width: 400px;
     }
@@ -202,19 +201,19 @@ h1 {
         gap: 20px;
     }
 
-    .lowatemCarte {
+    .greenviewCarte {
         width: 90%;
         max-width: 400px;
         margin: 0 auto;
         margin-top: 5%;
     }
 
-    .lowatem h2 {
+    .greenview h2 {
         font-size: 20px;
     }
 
-    .lowatem h4,
-    .lowatem p {
+    .greenview h4,
+    .greenview p {
         font-size: 14px;
         margin-left: 10px;
     }
@@ -250,15 +249,15 @@ h1 {
         font-size: 30px;
     }
 
-    .lowatemCarte h2 {
+    .greenviewCarte h2 {
         font-size: 18px;
     }
 
-    .lowatemCarte {
+    .greenviewCarte {
         min-height: auto;
     }
 
-    .imageLowatem {
+    .imageGreenview {
         max-height: 200px;
         max-width: 350px;
     }

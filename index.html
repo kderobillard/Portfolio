@@ -6,28 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Portfolio</title>
     <link rel="stylesheet" href="CSS/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <div class="infos">
-            <div class="socials">
-                <a href="index.html">
-                    <img src="IMAGES/home.png">
-                </a>
+        <nav>
+            <div class="infos">
+                <div class="socials">
+                    <a href="https://www.linkedin.com/in/karla-de-robillard-de-beaurepaire-607742314/">
+                        <img src="IMAGES/linkedIn_PNG8.png">
+                    </a>
+                </div>
+                <div class="socials">
+                    <a href="https://github.com/kderobillard">
+                        <img src="IMAGES/githublogo.png">
+                    </a>
+                </div>
+                <div class="menu">
+                    <div class="sommaire">
+                        <a href="#haut">
+                            Accueil
+                        </a>
+                    </div>
+                    <div class="sommaire">
+                        <a href="#competences">
+                            Compétences
+                        </a>
+                    </div>
+                    <div class="sommaire">
+                        <a href="#realisations">
+                            Réalisations
+                        </a>
+                    </div>
+                    <div class="sommaire">
+                        <a href="#contact">
+                            Contact
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="socials">
-                <a href="https://www.linkedin.com/in/karla-de-robillard-de-beaurepaire-607742314/">
-                    <img src="IMAGES/linkedIn_PNG8.png">
-                </a>
-            </div>
-            <div class="socials">
-                <a href="https://github.com/kderobillard">
-                    <img src="IMAGES/githublogo.png">
-                </a>
-            </div>
-        </div>
-        <div class="haut">
+        </nav>
+        <div id="haut">
             <div class="presentation">
                 <h1>
                     BIENVENUE SUR MON PORTFOLIO
@@ -49,9 +71,10 @@
             </div>
         </div>
     </header>
-    <hr>
+
     <section>
-        <div class="competences">
+        <div id="competences">
+            <hr>
             <div class="titreSection">
                 <h2>
                     <img src="IMAGES/competencelogo.png"> MES COMPÉTENCES <img src="IMAGES/competencelogo.png">
@@ -170,9 +193,10 @@
                         </div>
                     </div>
                 </div>
-
             </div>
+            <br>
             <div class="categories">
+                <br>
                 <h2>Générales</h2>
                 <div class="carteWrap">
                     <div class="carteCompetence">
@@ -217,7 +241,7 @@
     </section>
     <hr>
     <section>
-        <div class="realisations">
+        <div id="realisations">
             <div class="titreSection">
                 <h2>
                     <img src="IMAGES/reallogo.png"> MES RÉALISATIONS <img src="IMAGES/reallogo.png">
@@ -233,52 +257,52 @@
                         </p>
                     </div>
                     <div class="carteRealisation">
-                        <a href="makeen_YahourtABoire.html">
+                        <a href="HTML/reseau1.html">
                             <img class="realisationImage" src="IMAGES/reseau1logo.png" alt="reseau1"></a>
                         <p>
                             Administration Réseau
                         </p>
                     </div>
                     <div class="carteRealisation">
-                        <a href="makeen_YahourtABoire.html">
-                            <img class="realisationImage" src="IMAGES/gestionlogo.png" alt="analyse"></a>
+                        <a href="HTML/labyrinthe.html">
+                            <img class="realisationImage" src="IMAGES/labyrinthe.png" alt="meteo"></a>
                         <p>
-                            Analyse d'entreprise
+                            Labyrinthe
                         </p>
                     </div>
                     <div class="carteRealisation">
-                        <a href="makeen_YahourtABoire.html">
+                        <a href="HTML/odomo.html">
                             <img class="realisationImage" src="IMAGES/odomologo.png" alt="meteo"></a>
                         <p>
                             Station Météo
                         </p>
                     </div>
                     <div class="carteRealisation">
-                        <a href="makeen_YahourtABoire.html">
-                            <img class="realisationImage" src="IMAGES/bddlogo.png" alt="bdd"></a>
-                        <p>
-                            Création base de données
-                        </p>
-                    </div>
-                    <div class="carteRealisation">
-                        <a href="makeen_YahourtABoire.html">
+                        <a href="HTML/reseau2.html">
                             <img class="realisationImage" src="IMAGES/reseau2logo.png" alt="reseau2"></a>
                         <p>
                             Services réseaux
                         </p>
                     </div>
                     <div class="carteRealisation">
-                        <a href="makeen_YahourtABoire.html">
+                        <a href="HTML/greenview.html">
                             <img class="realisationImage" src="IMAGES/finanneelogo.png" alt="visu"></a>
                         <p>
                             Visualisation de données
                         </p>
                     </div>
                     <div class="carteRealisation">
-                        <a href="makeen_YahourtABoire.html">
-                            <img class="realisationImage" src="IMAGES/makeenlogo.png" alt="site"></a>
+                        <a href="HTML/graphes.html">
+                            <img class="realisationImage" src="IMAGES/graphes.png" alt="graphe"></a>
                         <p>
-                            Site web
+                            Visualisation de Graphes
+                        </p>
+                    </div>
+                    <div class="carteRealisation">
+                        <a href="HTML/chassejs.html">
+                            <img class="realisationImage" src="IMAGES/chasse.png" alt="chasse"></a>
+                        <p>
+                            Chasse au trésor en ligne
                         </p>
                     </div>
                 </div>
@@ -287,7 +311,7 @@
     </section>
     <hr>
     <section>
-        <div class="contact">
+        <div id="contact">
             <div class="titreSection">
                 <h2>
                     CONTACT
@@ -306,7 +330,7 @@
                 </div>
             </div>
             <p>
-                Email : karladebeaurepaire@gmail.com
+                ✉ : karladebeaurepaire@gmail.com
             </p>
         </div>
     </section>

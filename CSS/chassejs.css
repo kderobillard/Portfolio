@@ -82,19 +82,19 @@ h1 {
     font-weight: bold;
 }
 
-.lowatem {
+.chassejs {
     text-align: left;
     max-width: 3200px;
     margin: 0 20px;
     padding: 20px;
 }
 
-.lowatemImage {
+.chassejsImage {
     display: flex;
     justify-content: center;
 }
 
-.imageLowatem {
+.imageChassejs{
     width: 800px;
     height: 600px;
     border-radius: 10px;
@@ -102,20 +102,20 @@ h1 {
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.lowatem h2 {
+.chassejs h2 {
     text-align: center;
 }
 
-.lowatem p {
+.chassejs p {
     margin-left: 50px;
 }
 
-.lowatem h4 {
+.chassejs h4 {
     margin-top: 35px;
     margin-left: 20px;
 }
 
-.lowatemCarte {
+.chassejsCarte {
     margin-top: 100px;
     width: 560px;
     height: auto;
@@ -133,8 +133,8 @@ h1 {
     width: 10px;
 }
 
-.lowatemCarte:hover,
-.imageLowatem:hover {
+.chassejsCarte:hover,
+.imageChassejs:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
     cursor: pointer;
@@ -192,7 +192,7 @@ h1 {
         font-size: 36px;
     }
 
-    .imageLowatem {
+    .imageChassejs {
         max-height: 200px;
         max-width: 400px;
     }
@@ -202,19 +202,19 @@ h1 {
         gap: 20px;
     }
 
-    .lowatemCarte {
+    .chassejsCarte {
         width: 90%;
         max-width: 400px;
         margin: 0 auto;
         margin-top: 5%;
     }
 
-    .lowatem h2 {
+    .chassejs h2 {
         font-size: 20px;
     }
 
-    .lowatem h4,
-    .lowatem p {
+    .chassejs h4,
+    .chassejs p {
         font-size: 14px;
         margin-left: 10px;
     }
@@ -250,15 +250,15 @@ h1 {
         font-size: 30px;
     }
 
-    .lowatemCarte h2 {
+    .chassejsCarte h2 {
         font-size: 18px;
     }
 
-    .lowatemCarte {
+    .chassejsarte {
         min-height: auto;
     }
 
-    .imageLowatem {
+    .imageChassejs {
         max-height: 200px;
         max-width: 350px;
     }
