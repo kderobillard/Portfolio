@@ -20,10 +20,15 @@ nav {
 .infos {
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: space-around;
     height: 70px;
     padding: 0 20px 40px;
     position: relative;
+}
+
+.menuGauche {
+    display: flex;
+    align-items: center;
 }
 
 .menu {
@@ -31,7 +36,6 @@ nav {
     height: 70px;
     padding: 0 20px 40px;
     position: relative;
-    margin-left: 75%;
 }
 
 .menu a {
@@ -222,10 +226,6 @@ h1 {
 @media (max-width: 500px) {
     .infos {
         padding: 5px 0;
-    }
-
-    .socials {
-        width: 10%;
     }
 
     .socials img {

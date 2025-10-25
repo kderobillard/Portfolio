@@ -20,10 +20,15 @@ nav {
 .infos {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     height: 70px;
     padding: 0 20px 40px;
     position: relative;
+}
+
+.menuGauche {
+    display: flex;
+    align-items: center;
 }
 
 .menu {
@@ -31,7 +36,6 @@ nav {
     height: 70px;
     padding: 0 20px 40px;
     position: relative;
-    margin-left: 65%;
 }
 
 .menu a {
@@ -292,16 +296,7 @@ h2 img {
     transform: translateY(-2px);
 }
 
-@media (max-width: 1300px) {
-    .menu {
-        margin-left: 45%;
-    }
-}
-
 @media (max-width: 1024px) {
-    .menu {
-        margin-left: 10%;
-    }
 
     .competencesGrid {
         grid-template-columns: 1fr;
@@ -387,10 +382,6 @@ h2 img {
 @media (max-width: 500px) {
     .infos {
         padding: 5px 0;
-    }
-
-    .socials {
-        width: 10%;
     }
 
     .socials img {
