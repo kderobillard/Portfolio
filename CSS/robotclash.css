@@ -1,0 +1,265 @@
+body {
+    font-family: "Play", sans-serif;
+    background-color: #f8fcf9;
+    color: #333333;
+    text-align: center;
+}
+
+nav {
+    position: fixed;
+    height: 80px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 900;
+    text-align: center;
+}
+
+.infos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    padding: 0 20px 40px;
+    position: relative;
+}
+
+.menuGauche {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    height: 70px;
+    padding: 0 20px 40px;
+    position: relative;
+}
+
+.menu a {
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #8FBC8F;
+    font-size: 20px;
+}
+
+.menu a:hover {
+    color: #72a372;
+}
+
+.sommaire {
+    padding: 50px 10px;
+}
+
+.socials {
+    padding: 50px 10px;
+}
+
+.socials img {
+    cursor: pointer;
+    width: 50px;
+    filter: invert(0.2);
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.socials img:hover {
+    transform: scale(1.2);
+    filter: invert(0);
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #dddddd;
+    margin: 40px auto;
+    width: 70%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.robot {
+    text-align: left;
+    max-width: 3200px;
+    margin: 0 20px;
+    padding: 20px;
+}
+
+.robotImage {
+    display: flex;
+    justify-content: center;
+}
+
+.imageRobot {
+    width: 800px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.robot h2 {
+    text-align: center;
+}
+
+.robot p {
+    margin-left: 50px;
+}
+
+.robot h4 {
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.robotCarte {
+    margin-top: 100px;
+    width: 560px;
+    height: auto;
+    border-radius: 10px;
+    background-color: rgb(248, 248, 248);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.icones {
+    width: 30px;
+}
+
+.etoile {
+    width: 10px;
+}
+
+.robotCarte:hover,
+.imageRobot:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.realisationsPlace {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+@media (max-width: 1300px) {
+    .menu {
+        margin-left: 60%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .menu {
+        margin-left: 40%;
+    }
+}
+
+@media (max-width: 767px) {
+    .infos {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .socials img {
+        width: 35px;
+    }
+
+    .socials {
+        padding: 5px 0;
+    }
+
+    .menu {
+        width: 100%;
+        margin-left: 40%;
+        padding: 5px 0;
+    }
+
+    .sommaire {
+        padding: 10px 5px;
+    }
+
+    .menu a {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .imageRobot {
+        max-height: 200px;
+        max-width: 400px;
+    }
+
+    .realisationsPlace {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .robotCarte {
+        width: 90%;
+        max-width: 400px;
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+
+    .robot h2 {
+        font-size: 20px;
+    }
+
+    .robot h4,
+    .robot p {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    .infos {
+        padding: 5px 0;
+    }
+
+    .socials img {
+        width: 20px;
+    }
+
+    .menu {
+        align-items: center;
+        padding: 5px;
+    }
+
+    .menu a {
+        font-size: 12px;
+    }
+
+    .sommaire {
+        padding: 5px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .robotCarte h2 {
+        font-size: 18px;
+    }
+
+    .robotCarte {
+        min-height: auto;
+    }
+
+    .imageRobot {
+        max-height: 200px;
+        max-width: 350px;
+    }
+}
